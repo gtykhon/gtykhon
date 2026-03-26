@@ -1,4 +1,4 @@
-# Grygorii Tykhonovskyi
+# Grygorii T.
 
 Systems engineer building production automation, AI pipelines, and data infrastructure.
 
