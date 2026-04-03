@@ -9,6 +9,7 @@ I build things that run in production and survive interviews. Every metric is re
 | Project | What It Does |
 |---------|-------------|
 | [job_search_intelligence](https://github.com/gtykhon/job_search_intelligence) | 12-gate screening pipeline, dual-method alignment scoring, ghost job detection, fabrication-safe resume generation. Python, FastAPI, SQLite, HTMX, Claude API. |
+| [simple-file-agent](https://github.com/gtykhon/simple-file-agent) | Minimal autonomous file agent in ~600 lines. YAML-driven FSM (classify → plan → execute → verify), sandboxed file ops, multi-model LLM routing with Ollama-first + Claude fallback, two-stage code quality gate. Python, Ollama, Claude API, YAML. |
 | [osint-briefing-pipeline](https://github.com/gtykhon/osint-briefing-pipeline) | Automated geopolitical situational assessments. Multi-source ingestion, AI event classification, historical pattern matching, structured briefing output. |
 | [document-extraction-failsafe](https://github.com/gtykhon/document-extraction-failsafe) | Three-library OCR failsafe cascade (PyPDF2, PyMuPDF, Tesseract). Auto-detects PDF complexity, routes to optimal extractor, 99.2% accuracy. |
 | [fastapi-document-processor](https://github.com/gtykhon/fastapi-document-processor) | Async document processing with BackgroundTasks over Celery, content-hash idempotency, Azure Form Recognizer integration. |
